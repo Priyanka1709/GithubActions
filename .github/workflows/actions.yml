@@ -1,0 +1,12 @@
+name: Actions Workflow
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Simple JS Action
+        uses: action-path
+        with:
+          input1: test
+      - name: Log output of prev action-path
+        run: echo "${{ steps.<id>.outputs.<varname> }}"

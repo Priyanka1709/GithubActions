@@ -1,0 +1,19 @@
+{
+  "name": "githubactions",
+  "version": "1.0.0",
+  "description": "Setting up a CI using github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyanka1709/GithubActions.git"
+  },
+  "author": "Priyanka Karolia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyanka1709/GithubActions/issues"
+  },
+  "homepage": "https://github.com/Priyanka1709/GithubActions#readme"
+}
